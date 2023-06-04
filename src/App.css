@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital@1&display=swap');
+
+.App {
+  background-color: #0E3C2C;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-custom-opacity-white {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.05);
+  /* Adjust the last value (0.5) for desired opacity */
+}
+
+
+.Card_Bottom_blur {
+  background-color: rgba(236, 245, 241, 0.05);
+}
+
+.Card_bottom_Radius {
+  border-bottom-right-radius: 21px;
+  border-bottom-left-radius: 19px;
+}
+
+.item {
+  min-height: 40rem;
+  width: 33%;
+  padding: 40px
+}
+
+.item>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.inner-carousel {
+  display: flex;
+  background-color: lightblue;
+}
+
+.Carousel {
+  cursor: grab;
+  overflow: hidden
+}
+
+.button_shadow:hover {
+  position: relative;
+  animation-name: down;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  /* box-shadow: #FF8000 5px 5px 0px -3px; */
+}
+
+.button_background {}
+
+@keyframes down {
+  0% {
+    transform: translate(0, 0)
+  }
+
+  100% {
+    transform: translate(28px, 4px);
+  }
+
+}
